@@ -40,8 +40,8 @@ app: src/test/resources/app/Leanback.apk # BrowserStack Sample App
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
-  - deviceName: Nvidia Shield TV Pro 2019
-    platformVersion: 11.0
+  - deviceName: Amazon Fire TV Stick 4K
+    platformVersion: 7.1
     platformName: android
 
 # =======================
@@ -78,3 +78,4 @@ debug: true # <boolean> # Set to true if you need screenshots for every selenium
 networkLogs: false # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
+staticWebDriver: false
